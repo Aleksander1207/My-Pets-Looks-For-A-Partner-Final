@@ -1,0 +1,277 @@
+*
+{
+    padding:0;
+    margin:0;
+    font-family:sans-serif;
+}
+body
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("Pets/Images/parrots2.jpg");
+    background-size: 1570px 100vh;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.nav-bar
+{
+
+    display: flex;
+    padding:2% 4%;
+
+}
+.nav-logo img
+{
+width:200px;
+position: absolute;
+left:230px;
+top:4px;
+
+}
+.nav-logo h1
+{
+    font-size:65px;
+    position:absolute;
+    top:5px;
+    left:40px;
+    margin-top:30px;
+    
+}
+.nav-links
+{
+    flex:1;
+    text-align:right;
+}
+.nav-links ul li
+{
+    list-style:none;
+    display:inline-block;
+    padding:8px 12px;
+}
+.nav-links ul a
+{
+    text-decoration: none;
+    font: size 28px;
+    color:#ffea01;
+    padding:10px;
+    border:3px solid #ffea01;
+    border-radius: 10%;
+}
+.nav-links ul a:hover
+{
+    text-decoration: none;
+    font: size 32px;
+    border:3px solid #ffea01;
+    border-radius: 10%;
+    background:#ffea01;
+    color:#000;
+}
+.hero
+{
+    width:100%;
+    top:70%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    text-transform: uppercase;
+}
+h1
+{
+    font-size: 55px;
+    color:transparent;
+    -webkit-text-stroke: 1px #ffea01;
+    background:url("Pets/Images/backmix.png");
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation:back 20s linear infinite;
+    margin-bottom:4%;
+    margin-top:100px;
+
+}
+@keyframes back
+{
+
+    100%{
+        background-position: 2000px 0;
+    }
+}
+.btn
+{
+    width:160px;
+    height:50px;
+    border:3px solid #ffea01;
+    margin:auto;
+    cursor: pointer;
+    color:#ffea01;
+    position:relative;
+    overflow: hidden;
+
+}
+.btn p
+{
+    font-size: 20px;
+    padding-top: 12px;
+    font-weight: bold;
+    transition:1s;
+    
+
+}
+span
+{
+    width: 80px;
+    height:80px;
+    top:80px;
+    position: absolute;
+    background:#ffea01;
+    border-radius: 50%;
+    z-index: -1;
+    transition:1s;
+}
+span:nth-child(1)
+{
+    left:-20px;
+    transition-delay: 0.1s;
+}
+span:nth-child(2)
+{
+    left:30px;
+    transition-delay: 0.3s;
+
+}span:nth-child(3)
+{
+    left:80px;
+    transition-delay: 0.5s;
+
+}span:nth-child(4)
+{
+    left:125px;
+    transition-delay: 0.7s;
+
+}
+.btn:hover span
+{
+    top:-10px;
+}
+.btn:hover p
+{
+    color:#000;
+    transition-delay: 0.5s;
+}
+.menu-icon
+{
+    display:none;
+    width:26px;
+}
+a.read
+{
+    text-decoration: none;
+    color:#ffea01;
+}
+#text
+{
+    position:absolute;
+    bottom:-100%;
+    left:2%;
+    right:2%;
+    background:#676654;
+    color:#ffea01;
+}
+.info
+{
+    font-size:30px;
+    text-indent: 50px;
+    line-height: 50px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+
+}
+.top
+{
+    margin-top:45px;
+    margin-bottom: 15px;
+    text-indent: 90px;
+    font-size:40px;
+}
+.steps
+{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+.steplist ul
+{
+    text-indent: 90px;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 45px;
+}
+.steplist ul li
+{
+    padding:10px;
+
+}
+#about
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),#676654;
+    color:#ffea01;
+    position:absolute;
+    bottom:-160%;
+    width:100%;
+}
+#about h2
+{
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    margin-top:40px;
+    text-align: center;
+
+}
+#about p
+{
+    margin:40px 40px 40px 40px;
+    font-size:35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+@media(max-width:700px)
+{
+    .hero h1
+    {
+        font-size:26px;
+        margin-bottom: 10%;
+    }
+    .nav-links ul li{
+        display:block;
+    }
+    .nav-links ul
+    {
+        padding:20px 5px;
+    }
+    .nav-links
+    {
+        margin-top: 30px;
+    }
+    .nav-logo
+    {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .menu-icon
+    {
+        display:block;
+        cursor: pointer;
+        top:20px;
+        right:35px;
+        position: absolute;
+    }
+    #mobileMenu
+    {
+        overflow: hidden;
+        transition:1s;
+        height: 0;
+    }
+}

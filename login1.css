@@ -1,0 +1,124 @@
+body
+{
+	margin:0;
+	padding:0;
+	background-image:url("Pets/Images/golden1.jpg");
+	background-size:1598px 760px;
+	font-family:sans-serif;
+	position:fixed;
+	
+}
+img
+{
+	position: relative;
+	width:200px;
+	top:10px;
+	left:650%;
+}
+.loginbox
+{
+	width:320px;
+	height:420px;
+	background:#000;
+	color:#fff;
+	position:inherit;
+	top:50%;
+	left:70%;
+	transform:translate(-50%,-50%);
+	box-sizing:border-box;
+	padding:70px 30px;
+	
+}
+.icon
+{
+	width:100px;
+	height:100px;
+	position:absolute;
+	border-radius:50%;
+	top:-50px;
+	left:110px;
+}
+h1
+{
+	margin:0;
+	padding:0 0 20px;
+	text-align:center;
+	font-size:22px;
+}
+.loginbox p
+{
+	margin:0px;
+	padding:0px;
+	font-weight:bold;
+}
+.loginbox input
+{
+	width:100%;
+	margin-bottom:20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+	border:none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+}
+.loginbox input[type="submit"]
+{
+	border:none;
+	outline:none;
+	height:40px;
+	background:#fb2525;
+	color:#fff;
+	font-size:18px;
+	border-radius:20px;
+}
+.loginbox input[type="submit"]:hover
+{
+	cursor:pointer;
+	background:#ffc107;
+	color:#000;
+}
+.loginbox a
+{
+	text-decoration:none;
+	font-size:12px;
+	line-height:20px;
+	color:darkgrey;
+}
+.loginbox a:hover
+{
+	color:#ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
