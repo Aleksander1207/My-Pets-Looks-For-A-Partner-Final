@@ -83,7 +83,7 @@ if(isset($_POST['insert']))
             <div class="menu-bar">
                 <ul>
                     <li><a href="home.php"><i class="fa fa-home"></i></i>Home</a></li>
-                    <li><a href="profile1.php"><i class="fa fa-user"></i>Your Profile</a></li>
+                    <li><a href="profile2.php"><i class="fa fa-user"></i>Your Profile</a></li>
                     <li><a href="logout.php"><i class="fa fa-sign-out"></i>Log out</a></li>
                 </ul>
             </div>
